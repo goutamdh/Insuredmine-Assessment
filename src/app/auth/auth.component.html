@@ -1,0 +1,8 @@
+<!-- Define different display types for the same file component -->
+<ng-container [ngSwitch]="displayType" class="container">
+  <ng-container *ngSwitchCase="'basic'">
+     {{getUser()}}
+  </ng-container>
+  <!-- Default display -->
+  <ng-container *ngSwitchDefault>{{getUser()}}</ng-container>
+</ng-container>

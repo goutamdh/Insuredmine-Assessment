@@ -1,0 +1,88 @@
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+    background: #bce9fb;
+}
+
+/*------------------------ 2.2 Footer Section ------------------------*/
+
+/* footer{
+    width: 100%;
+    padding: 15px 0px;
+    position: fixed;
+    z-index: 0;
+    bottom: 0;
+    /* background: #9ac5f6; */
+    /* background: transparent; */
+  /* } 
+  */ 
+  
+  footer .copyright p{
+    color: #131111;
+    font-size: 16px;
+    margin-top: 8px;
+    font-weight: 800;
+  }
+  footer .logo
+  {
+     cursor: pointer;
+  }
+  
+  footer .social{
+    margin: 0 auto;
+    display: table;
+    padding-top: 10px;
+  }
+  
+  footer .social a{
+    background: #fff;
+    color: #191919;
+    font-size: 12px;
+    padding: 6px 8px;
+    display: inline-block;
+    border-radius: 100%;
+    margin-right: 8px;
+    cursor: pointer;
+  }
+  
+  footer .social a:hover{
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+  
+  
+  footer .getintouch{
+    color: #000;
+  }
+  
+  footer .getintouch a{
+    font-size: 14px;
+    color: #979797;
+    text-decoration: none;
+  }
+  
+  footer .getintouch strong{
+    font-size: 20px;
+    color: #000;
+  }
+  
+  .cont
+  {
+    margin-left: 9%;
+    
+  }
+  
+    .btn
+    {
+      background-color: #18A0FB !important;
+    }
+    a:hover {
+      color: #0056b3;
+      text-decoration: none;
+  }

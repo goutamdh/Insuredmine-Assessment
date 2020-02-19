@@ -1,0 +1,33 @@
+
+<div class="container">
+<div class ="row">
+<nav class="navbar navbar-expand-md navbar-blue navbar-dark fixed-top">
+<div class="container">
+<div class ="row">
+  <a class="navbar-brand" href="#">secureshare</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse float-right" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/Home">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/Aboutus">About us</a>
+      </li>
+      <li class="nav-item" *ngIf="authService.loginStatus === 0" >
+        <a class="nav-link"routerLink="/auth/login">Login</a>
+      </li>
+     <li class="nav-item" *ngIf="authService.loginStatus === 1" (click)="onLogout()" >
+        <a class="nav-link"routerLink="/auth/login"  >Logout</a>
+      </li>
+      <li class="nav-item" *ngIf="authService.loginStatus === 1" >
+        <a class="nav-link"routerLink="/deahboard">Gallery</a>
+      </li>
+    </ul>
+  </div>
+  </div>
+</div>
+</nav>
